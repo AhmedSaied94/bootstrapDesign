@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <style>
+        .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+            background-color: rgb(12, 170, 51);
+            transform: scale(1.1);
+        }
+        a{
+            color: black;
+        }
+        .nav{
+            background-color: rgb(233, 233, 235);
+        }
+        .row{
+            margin: auto;
+        }
+
+        #log{
+            background-color: white;
+            padding-top: 30px;
+            padding-bottom: 15px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        body{
+            background-color: lightcoral;
+        }
+    </style>
+    <script src="jquery-3.6.0.js"></script>
+</head>
+<body>
+    <script src="bootstrap.js"></script>
+    
+    <div class="container mt-5">
+        <div id="log">
+            <div class="row">
+                <div class="col-8 offset-2 text-center">
+                    <h4>Build your profile</h4>
+                    <p class="text-muted">This infromation will let us know more about you</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 px-0">
+                    <nav class="nav nav-pills nav-justified">
+                        <a class="nav-item nav-link active" href="#">About</a>
+                        <a class="nav-item nav-link" href="#">Account</a>
+                        <a class="nav-item nav-link" href="#">Address</a>
+                      </nav>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-8 offset-2 text-center">
+                    <p class="text-muted">Let's start with the basic infromation (with validate)</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-10 offset-1">
+                    <div class="row">
+                        <div class="col-sm-4 text-center">
+                            
+                            <i class="bi bi-person-square md-0" style="font-size: 500%;"></i>
+                            <p style="line-height: 0;">Profile picture</p>
+                           
+                            
+                        </div>
+                        <div class="col-sm-8">
+                            <form>
+                                <div class="col-12 pt-4 pr-md-0">
+                                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                                    <div class="input-group mb-2">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text bi-person-square"></div>
+                                      </div>
+                                      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                                    </div>
+                                </div>
+                                <div class="col-12 pr-md-0">
+                                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                                    <div class="input-group mb-2">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text bi-lock-fill"></div>
+                                      </div>
+                                      <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+                                    </div>
+                                </div>
+                            </form>    
+                        </div>
+                        <div class="col-12 pt-4">
+                            <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                            <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text bi-envelope-fill"></div>
+                              </div>
+                              <input type="texr" class="form-control" id="inlineFormInputGroup" placeholder="email">
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                    <div class="row"></div>
+                    
+                </div>
+                
+            </div>
+            <div class="row mt-3">
+                <div class="col-6 offset-3 offset-sm-6  text-center text-sm-right">
+                    <button class="btn btn-success" style="width: 120px;">Next</button>
+                </div>
+            </div>
+        </div>
+        
+  
+    </div>
+
+</body>
+</html>

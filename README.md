@@ -1,2 +1,2 @@
 # bootstrapDesign
-simple album and login design using bootstrap 4
+simple album and signup design using bootstrap 4
